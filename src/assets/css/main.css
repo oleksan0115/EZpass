@@ -1,0 +1,29 @@
+.container-main {
+    width: 100%;
+    max-width: 1920px;
+    padding: 0px 24px 0px 24px;
+    margin-left: auto;
+}
+
+@media screen and (min-width: theme('screens.md')) {
+    .container-main {
+        width: 100%;
+        max-width: 1920px;
+        padding: 0px 24px 0px 73px;
+        margin-left: auto;
+    }
+}
+
+.nav-link.active {
+    color: theme('colors.blue');
+}
+.nav-link.active::before {
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 30px);
+    height: 6px;
+    background: theme('colors.blue');
+}

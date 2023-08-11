@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'rubik-regular';
+    src: url('../fonts/rubik/Rubik-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'rubik-medium';
+    src: url('../fonts/rubik/Rubik-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'rubik-semibold';
+    src: url('../fonts/rubik/Rubik-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
